@@ -222,11 +222,11 @@ html,body{background:#fff}
 .rgdt{width:100%;border-collapse:collapse}
 .rgdt td{border:1px solid var(--rule);padding:8px 14px;font-size:23px;line-height:1.24;vertical-align:middle}
 .rgdt td.k{background:var(--tint);font-weight:700;color:var(--navy);width:250px}
-.shots3{display:grid;grid-template-columns:200px 1fr 1fr;gap:16px;align-items:start;max-height:270px}
-.shots3 .fig{padding:5px;max-height:270px;overflow:hidden}
+.shots3{display:grid;grid-template-columns:200px 1fr 1fr;gap:14px;align-items:start;max-height:225px}
+.shots3 .fig{padding:4px;max-height:225px;overflow:hidden}
 .lv td{font-size:23px}
 
-.shots3 .fig img{max-height:250px;object-fit:cover;width:100%}
+.shots3 .fig img{max-height:208px;object-fit:cover;width:100%}
 
 /* ---- v6 : fiches candidates, exemple ---- */
 .cardsF{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:6px}
@@ -246,6 +246,6 @@ html,body{background:#fff}
 .divider .dsub{font-size:24px;color:var(--gray);margin-top:18px;text-align:center}
 
 /* ---- lien video ---- */
-.vidlink{display:inline-flex;align-items:center;gap:8px;font-size:18px;font-weight:700;color:var(--navy);background:var(--tint);border:1px solid var(--rule);border-radius:16px;padding:4px 16px;text-decoration:none;margin:-8px 0 8px}
+.vidlink{display:inline-flex;align-items:center;gap:8px;font-size:17px;font-weight:700;color:var(--navy);background:var(--tint);border:1px solid var(--rule);border-radius:14px;padding:3px 14px;text-decoration:none;margin:-10px 0 6px}
 .vidlink:hover{background:#e2e9ec}
 .vidlink .play{width:0;height:0;border-style:solid;border-width:6px 0 6px 10px;border-color:transparent transparent transparent var(--amber, var(--navy))}
