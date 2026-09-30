@@ -238,3 +238,9 @@ html,body{background:#fff}
 .cardF .desc b.miss{background:none;color:#b7bfc6;text-decoration:line-through;padding:0}
 .photoNote{display:flex;align-items:center;gap:14px;margin:14px 0;font-size:22px}
 .photoBox{border:2px dashed #9fb6b1;border-radius:8px;padding:10px 18px;background:#f7faf9;font-size:19px;color:#33404a;flex:1}
+
+/* ---- diapos de transition ---- */
+.divider{justify-content:center;align-items:flex-start}
+.divider .dnum{font-family:var(--head);font-size:120px;font-weight:700;color:var(--rule);line-height:1;margin-bottom:8px}
+.divider .dtitle{font-size:48px;color:var(--navy);margin:0;border:none;padding:0}
+.divider .dsub{font-size:22px;color:var(--gray);margin-top:14px}

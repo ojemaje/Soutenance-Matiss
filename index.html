@@ -48,6 +48,15 @@
 </section>
 
 <!-- 3. CONTEXTE -->
+<!-- DIVIDER 1 -->
+<section data-title="Partie 1" data-nofooter>
+<div class="sl divider">
+  <div class="dnum">01</div>
+  <h1 class="dtitle">Contexte et mission</h1>
+</div>
+
+</section>
+
 <section data-title="Contexte" data-sec="1. Contexte et mission">
 <div class="sl">
   <h2>Contexte : Mayotte, le risque tsunami et la simulation GAMA</h2>
@@ -56,7 +65,7 @@
       <ul>
         <li>Depuis 2018, un volcan sous-marin, le Fani Maoré, est actif au large de Mayotte : le risque tsunami est réel pour Mamoudzou, dense et en partie littorale.</li>
         <li>Le programme <b>PEPR IRIMA ROM</b> étudie les risques naturels majeurs dans l'océan Indien.</li>
-        <li>Kévin Chapuis (IRD) a développé une simulation multi-agents sous <b>GAMA</b> : population de Mamoudzou, alerte, évacuation vers les refuges.</li>
+        <li>Kévin Chapuis (IRD) et Noé Carles (LAGAM) ont développé ensemble le cas d'étude Mayotte de la simulation multi-agents <b>GAMA</b> : population de Mamoudzou, alerte, évacuation vers les refuges.</li>
       </ul>
     </div>
     <div class="col" style="flex:1;justify-content:center">
@@ -108,6 +117,15 @@
 </section>
 
 <!-- 7. DECLOISONNER -->
+<!-- DIVIDER 2 -->
+<section data-title="Partie 2" data-nofooter>
+<div class="sl divider">
+  <div class="dnum">02</div>
+  <h1 class="dtitle">Pourquoi un jeu en réalité virtuelle</h1>
+</div>
+
+</section>
+
 <section data-title="Décloisonner la recherche" data-sec="2. Pourquoi un jeu en réalité virtuelle">
 <div class="sl">
   <h2>Décloisonner la recherche</h2>
@@ -167,9 +185,9 @@
   <div class="lanes">
     <div class="ent"><b>Centre d'alerte</b><small>CENALT, autorités</small></div>
     <div class="lane">
-      <div class="ln uu">alerte montante →</div>
+      <div class="ln dd">← alerte montante</div>
       <div class="lt">des instruments (sismographes, marégraphes) détectent un séisme ou un tsunami et transmettent la donnée au centre d'alerte</div>
-      <div class="ln dd">← alerte descendante</div>
+      <div class="ln uu">alerte descendante →</div>
       <div class="lt">le centre avertit officiellement la population : sirènes, messages, consignes d'évacuation</div>
     </div>
     <div class="ent"><b>Population</b><small>habitants, littoral</small></div>
@@ -180,6 +198,15 @@
 </section>
 
 <!-- 10b. VOCABULAIRE -->
+<!-- DIVIDER 3 -->
+<section data-title="Partie 3" data-nofooter>
+<div class="sl divider">
+  <div class="dnum">03</div>
+  <h1 class="dtitle">Conception du jeu</h1>
+</div>
+
+</section>
+
 <section data-title="Vocabulaire" data-sec="3. Conception du jeu">
 <div class="sl">
   <h2>Quelques termes du jeu vidéo utilisés dans la présentation</h2>
@@ -210,7 +237,7 @@
     <div class="role r">
       <h3>Le Réseau</h3>
       <div class="who">Des observateurs, avec des fiches papier</div>
-      <p>Ils ont de la documentation sur les phénomènes précurseurs possibles, mais ne voient jamais le terrain.</p>
+      <p>Chaque fiche est une vraie fiche de gestion de crise : la description du signe à repérer, le protocole d'alerte associé, les caractéristiques de la catastrophe elle-même, et le profil de la population du secteur — sans jamais voir le terrain.</p>
     </div>
     <div class="role p">
       <h3>Le Poste</h3>
@@ -287,13 +314,13 @@
   <div class="cycle">
     <div class="step p" style="grid-column:1;grid-row:1"><div class="who">Le Poste</div><div class="t">1. Un ou plusieurs signaux apparaissent</div><div class="d">couleur et emplacement sur sa carte ; il ne sait pas ce que c'est</div></div>
     <div class="ar" style="grid-column:2;grid-row:1">→</div>
-    <div class="step r" style="grid-column:3;grid-row:1"><div class="who">Le Réseau</div><div class="t">2. Croise emplacement et fiches</div><div class="d">retient plusieurs plusieurs pistes plausibles pour ce lieu, jamais une seule évidence</div></div>
+    <div class="step r" style="grid-column:3;grid-row:1"><div class="who">Le Réseau</div><div class="t">2. Croise emplacement et fiches</div><div class="d">retient plusieurs pistes plausibles pour ce lieu, jamais une seule évidence</div></div>
     <div class="ar" style="grid-column:4;grid-row:1">→</div>
     <div class="step p" style="grid-column:5;grid-row:1"><div class="who">Le Poste</div><div class="t">3. Priorise et envoie</div><div class="d">choisit quel signal traiter en premier, envoie le Terrain avec la fiabilité de la source</div></div>
     <div class="ar down">↓</div>
     <div class="step x" style="grid-column:1;grid-row:3"><div class="who">Conséquence</div><div class="t">6. Effet sur l'évacuation</div><div class="d">GAMA ajuste : bon choix, elle s'accélère ; mauvais choix, effet négatif</div></div>
     <div class="ar" style="grid-column:2;grid-row:3">←</div>
-    <div class="step m" style="grid-column:3;grid-row:3"><div class="who">Le Poste</div><div class="t">5. Compare et juge</div><div class="d">confronte la photo aux descriptions de ces pistes : laquelle correspond le mieux ?</div></div>
+    <div class="step p" style="grid-column:3;grid-row:3"><div class="who">Le Poste</div><div class="t">5. Compare et juge</div><div class="d">confronte la photo aux descriptions de ces pistes : laquelle correspond le mieux ?</div></div>
     <div class="ar" style="grid-column:4;grid-row:3">←</div>
     <div class="step t" style="grid-column:5;grid-row:3"><div class="who">Le Terrain</div><div class="t">4. Cherche et photographie</div><div class="d">sans description ni indice, repère ce qui semble anormal sur la zone, prend une photo ; le détour coûte du temps</div></div>
   </div>
@@ -334,6 +361,15 @@
 </section>
 
 <!-- 13. ARCHITECTURE -->
+<!-- DIVIDER 4 -->
+<section data-title="Partie 4" data-nofooter>
+<div class="sl divider">
+  <div class="dnum">04</div>
+  <h1 class="dtitle">Réalisation technique</h1>
+</div>
+
+</section>
+
 <section data-title="Architecture" data-sec="4. Réalisation technique">
 <div class="sl">
   <h2>Architecture : ce que fait chaque brique</h2>
@@ -408,6 +444,15 @@
 
 <!-- 17. DIFFICULTES ET ETAT -->
 <!-- 17. DIFFICULTES ET ETAT -->
+<!-- DIVIDER 5 -->
+<section data-title="Partie 5" data-nofooter>
+<div class="sl divider">
+  <div class="dnum">05</div>
+  <h1 class="dtitle">Bilan et perspectives</h1>
+</div>
+
+</section>
+
 <section data-title="Difficultés et état" data-sec="5. Bilan et perspectives">
 <div class="sl">
   <h2>Difficultés et état du projet</h2>
